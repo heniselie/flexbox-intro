@@ -8,6 +8,17 @@ nav {
     align-items: center;
 
   }
-.link-container a{
+.link-container a {
     margin: 1em;
 }
+
+.puppy-container {
+  display: flex;
+}
+
+.puppy-container img {
+  width:500px;
+  flex-wrap: nowrap | wrap | wrap-reverse;
+}
+
+
